@@ -26,4 +26,14 @@ img {
         max-height: 100vh;
         height: auto;
     }
+    .caption {
+        color:white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .image img {
+        width:100%;
+        min-height: 200%;
+        
+    }
 }
