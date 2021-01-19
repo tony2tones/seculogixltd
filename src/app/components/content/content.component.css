@@ -28,14 +28,13 @@ img {
     height: 90vh;
 }
 
-@media only screen and (min-width: 740px) {
+@media only screen and (max-width: 600px) {
     /* tablets and desktop */
     .container {
         margin-top: 30px;
     }
     img {
-        position: absolute;
-        min-width: 100%;
+        min-width: 100vw;
         max-height: 100vh;
         height: auto;
     }
@@ -55,7 +54,7 @@ img {
     .image {
         background: url('../../../assets/indianocean.jpg') no-repeat center fixed;
         background-size: cover;
-        height: 90vh;
+        height: 100vh;
     }
 }
 
