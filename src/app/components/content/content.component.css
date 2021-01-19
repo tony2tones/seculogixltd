@@ -9,12 +9,14 @@
 }
 
 img {
+    position: absolute;
     min-width: 100%;
     max-height: 100%;
     height: auto;
 }
 
 .caption {
+    min-width: 600px;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -25,60 +27,66 @@ img {
     height: 90vh;
 }
 
-.caption {
-    position: relative;
-    margin: auto;
-    top: 28%;
-    left: 34%;
-}
-
 @media only screen and (min-width: 768px) {
     /* tablets and desktop */
-}
-
-@media only screen and (max-width: 767px) {
-    /* phones */
+    .container {
+        margin-top: 30px;
+    }
     img {
+        position: absolute;
         min-width: 100%;
-        max-height: 100vh;
+        max-height: 100%;
         height: auto;
     }
     .caption {
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 24px;
+        display: block;
+        overflow-wrap: break-word;
+        max-width: 100%;
     }
     .image {
-        background: url('../../../assets/indianoceanMobile.png') fixed no-repeat;
-        width: 100%;
-        min-height: 700px;
+        background: url('../../../assets/indianocean.jpg') no-repeat center fixed;
+        background-size: cover;
+        height: 90vh;
     }
     .caption {
-        padding: 10px;
-        text-align: center;
-        top: 40%;
+        position: relative;
+        margin: auto;
+        flex-wrap: wrap;
+        top: 28%;
+        left: 15%;
     }
 }
 
 @media only screen and (max-width: 767px) and (orientation: portrait) {
     /* portrait phones */
     img {
-        min-width: 100%;
+        max-width: 100%;
         max-height: 100vh;
         height: auto;
     }
     .caption {
+        min-width: 200px;
+        height: auto;
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 22px;
+        text-align: left;
+        white-space: pre-wrap;
     }
     .image {
+        position: absolute;
         background: url('../../../assets/indianOceanbgMobi.png') no-repeat;
         width: 100%;
         min-height: 700px;
     }
     .caption {
+        max-width: 300px;
         padding: 10px;
-        position: absolute;
-        text-align: center;
-        top: 53%;
+        position: relative;
+        top: 30%;
+        left: 3%;
     }
 }
