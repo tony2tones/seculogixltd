@@ -1,4 +1,3 @@
-
 @media only screen and (min-width: 768px) {
     /* tablets and desktop */
     .container {
@@ -11,9 +10,8 @@
     }
     .logo img {
         /* position: relative; */
-        left:10px;
+        left: 10px;
         height: 80px;
-        
     }
 }
 
@@ -22,23 +20,19 @@
 }
 
 @media only screen and (max-width: 767px) and (orientation: portrait) {
-  
-.container {
-    background-color: #fff;
-    position: relative;
-    z-index: 3;
-    width: 100vw;
-    padding: 16px 0;
-}
-
-.logo {
-    position: relative;
-    left:10px;
-}
-
-.logo img {
-    height: 80px;
-    width:90vw;
-    
-}
+    .container {
+        background-color: #fff;
+        position: relative;
+        z-index: 3;
+        width: 100vw;
+        padding: 16px 0;
+    }
+    .logo {
+        position: relative;
+        left: 10px;
+    }
+    .logo img {
+        height: 80px;
+        width: 90vw;
+    }
 }
