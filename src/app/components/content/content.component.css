@@ -4,61 +4,86 @@
     background-image: url("http://seculogix-ltd.com/wp-content/uploads/2017/05/blue-2105706_1920.jpg");
 } */
 
-.container {
-    margin-top: 30px;
-}
-
-img {
-    position: absolute;
-    min-width: 100%;
-    max-height: 100%;
-    height: auto;
-}
-
-.caption {
-    position: relative;
-    min-width: 600px;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.image {
-    background: url('../../../assets/indianocean.jpg') no-repeat center fixed;
-    background-size: cover;
-    height: 90vh;
-}
-
-@media only screen and (max-width: 600px) {
-    /* tablets and desktop */
+@media (min-width: 1050px) {
     .container {
         margin-top: 30px;
     }
     img {
-        min-width: 100vw;
-        max-height: 100vh;
+        position: absolute;
+        min-width: 100%;
+        max-height: 100%;
         height: auto;
     }
     .caption {
+        position: relative;
+        min-width: 600px;
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 24px;
-        display: block;
-        overflow-wrap: break-word;
-        max-width: 100%;
-        position: relative;
-        margin: auto;
-        flex-wrap: wrap;
-        top: 28%;
-        left: 15%;
+        left: 23%;
+        top: 30%;
     }
     .image {
         background: url('../../../assets/indianocean.jpg') no-repeat center fixed;
         background-size: cover;
-        height: 100vh;
+        height: 90vh;
     }
 }
 
-@media only screen and (max-width: 767px) and (orientation: portrait) {
+@media (max-width: 1024px) and (min-width: 651px) {
+    .container {
+        margin-top: 30px;
+    }
+    img {
+        position: absolute;
+        min-width: 100%;
+        max-height: 100%;
+        height: auto;
+    }
+    .caption {
+        position: relative;
+        min-width: 600px;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 28px;
+        left: 7%;
+        top: 42%;
+    }
+    .image {
+        background: url('../../../assets/indianocean.jpg') no-repeat center fixed;
+        background-size: cover;
+        height: 90vh;
+    }
+}
+
+@media (min-width: 650px),
+(orientation: landscape) {
+    .container {
+        margin-top: 30px;
+    }
+    img {
+        position: absolute;
+        min-width: 100%;
+        max-height: 100%;
+        height: auto;
+    }
+    .caption {
+        position: relative;
+        max-width: 650px;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: xx-large;
+        left: 13%;
+        top: 25%;
+    }
+    .image {
+        background: url('../../../assets/indianocean.jpg') no-repeat center fixed;
+        background-size: cover;
+        height: 90vh;
+    }
+}
+
+@media only screen and (max-width: 650px) and (orientation: portrait) {
     /* portrait phones */
     img {
         max-width: 100%;
@@ -66,13 +91,14 @@ img {
         height: auto;
     }
     .caption {
+        position: relative;
         min-width: 200px;
         height: auto;
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 22px;
         padding: 10px;
-        top: 30%;
+        margin-top: 60%;
     }
     .image {
         position: absolute;
