@@ -4,8 +4,89 @@
     background-image: url("http://seculogix-ltd.com/wp-content/uploads/2017/05/blue-2105706_1920.jpg");
 } */
 
-img {
-    min-width: 100%;
-    max-height: 100vh;
-    height: auto;
+@media only screen and (max-width: 700px) and (orientation: portrait) {
+    .container {
+        margin-top: 30px;
+    }
+    /* portrait phones */
+    img {
+        position: absolute;
+        min-width: 100%;
+        max-height: 100%;
+        height: auto;
+    }
+    .caption {
+        position: relative;
+        min-width: 200px;
+        height: auto;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 22px;
+        padding: 10px;
+        margin-top: 60%;
+    }
+    .image {
+        position: absolute;
+        background: url('../../../assets/indianOceanbgMobi.png') no-repeat;
+        width: 100%;
+        min-height: 700px;
+    }
+}
+
+@media (max-width: 1020px) and (min-width: 651px) {
+    .container {
+        margin-top: 30px;
+    }
+    img {
+        position: absolute;
+        color: white;
+        min-width: 100%;
+        max-height: 100%;
+        height: auto;
+    }
+    .caption {
+        position: relative;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        max-width: 1600px;
+        font-size: 20px;
+        left: 13%;
+        top: 40%;
+    }
+    .image {
+        background: url('../../../assets/indianocean.jpg') no-repeat center;
+        background-size: cover;
+        height: 90vh;
+    }
+}
+
+@media (min-width: 1020px) {
+    .container {
+        margin-top: 30px;
+    }
+    img {
+        position: absolute;
+        min-width: 100%;
+        max-height: 100%;
+        height: auto;
+    }
+    .caption {
+        position: relative;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 23px;
+        left: 20%;
+        top: 45%;
+    }
+    .image {
+        background: url('../../../assets/indianocean.jpg') no-repeat center;
+        background-size: cover;
+        height: 90vh;
+    }
+}
+
+@media (min-width: 1550px) {
+    .caption {
+        left: 35%;
+    }
 }
