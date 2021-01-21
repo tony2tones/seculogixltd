@@ -4,7 +4,7 @@
     background-image: url("http://seculogix-ltd.com/wp-content/uploads/2017/05/blue-2105706_1920.jpg");
 } */
 
-@media only screen and (max-width: 650px) and (orientation: portrait) {
+@media only screen and (max-width: 700px) and (orientation: portrait) {
     .container {
         margin-top: 30px;
     }
@@ -33,7 +33,7 @@
     }
 }
 
-@media (max-width: 1024px) and (min-width: 651px) {
+@media (max-width: 1020px) and (min-width: 651px) {
     .container {
         margin-top: 30px;
     }
@@ -50,11 +50,11 @@
         color: white;
         max-width: 1600px;
         font-size: 20px;
-        left: 7%;
-        top: 30%;
+        left: 13%;
+        top: 40%;
     }
     .image {
-        background: url('../../../assets/indianocean.jpg') no-repeat center fixed;
+        background: url('../../../assets/indianocean.jpg') no-repeat center;
         background-size: cover;
         height: 90vh;
     }
@@ -76,10 +76,10 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 23px;
         left: 20%;
-        top: 27%;
+        top: 45%;
     }
     .image {
-        background: url('../../../assets/indianocean.jpg') no-repeat center fixed;
+        background: url('../../../assets/indianocean.jpg') no-repeat center;
         background-size: cover;
         height: 90vh;
     }
@@ -87,6 +87,6 @@
 
 @media (min-width: 1550px) {
     .caption {
-        left: 33%;
+        left: 35%;
     }
 }
