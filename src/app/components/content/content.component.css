@@ -17,12 +17,9 @@
     }
     .caption {
         position: relative;
-        min-width: 200px;
-        height: auto;
-        color: white;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 22px;
-        padding: 10px;
+        height: 84px;
+        min-width: 100%;
+        background: url('../../../assets/SeculogixSmallLogo.jpg') center 0 no-repeat;
         margin-top: 60%;
     }
     .image {
@@ -72,9 +69,7 @@
     }
     .caption {
         position: relative;
-        color: white;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 23px;
+        background: url('../../../assets/seculogixHeader.PNG') no-repeat;
         left: 20%;
         top: 45%;
     }
