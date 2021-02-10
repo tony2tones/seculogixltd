@@ -42,11 +42,10 @@
     }
     .caption {
         position: relative;
-        background: url('../../../assets/seculogixHeadermin.PNG') center 0 no-repeat;
-        height: 84px;
+        background: url('../../../assets/seculogixHeadermin.png') center 0 no-repeat;
+        height: 140px;
         min-width: 100%;
-        left: 20%;
-        top: 45%;
+        top: 34%;
     }
     .image {
         background: url('../../../assets/indianocean.jpg') no-repeat center;
@@ -57,7 +56,11 @@
 
 @media (min-width: 1550px) {
     .caption {
-        left: 35%;
+        position: relative;
+        background: url('../../../assets/seculogixHeadermin.png') center 0 no-repeat;
+        height: 140px;
+        min-width: 100%;
+        top: 40%;
     }
 }
 
@@ -74,8 +77,8 @@
     }
     .caption {
         position: relative;
-        background: url('../../../assets/seculogixHeader.PNG') center 0 no-repeat;
-        height: 84px;
+        background: url('../../../assets/seculogixHeadermin.png') center 0 no-repeat;
+        height: 140px;
         min-width: 100%;
         top: 40%;
     }
